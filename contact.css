@@ -1,0 +1,149 @@
+h1 {
+    float: left;
+    background-color: rgb(62, 153, 123);
+    padding: 20px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+ul {
+    padding-top: 25px;
+    color: white;
+}
+
+nav {
+    background-color: lightgray;
+}
+
+a {
+    color: white;
+}
+
+body {
+    background-image: url(images/spikes-copy.png)
+}
+
+.nav {
+    padding: 20px;
+}
+
+.bottom-page {
+    background-color: grey;
+    width: 100%;
+    position: absolute;
+    margin: 100px 0px 0px 0px;
+    padding: 35px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.Contact-Form {
+    margin-top: 100px;
+    background-color: whitesmoke;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#navbar {
+    background-color: lightgrey;
+    padding-bottom: 8px;
+}
